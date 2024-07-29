@@ -1,3 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    background-color: white;
+    width: 85%;
+    height: auto;
+    margin: 15% auto;
+    box-shadow: 10px 10px black;
+    border-radius: 25px;
+    padding: 5%;
+}
+.banner{
+    width: 100%;
+    border-radius: 10px;
+}
+.container h2{
+    display: inline;
+    margin: 10% 0;
+    padding: 2.5%;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+.date{
+    margin-bottom: 5%;
+}
+.container h1{
+    margin: 5% 0;
+}
+.container .des{
+    color: hsl(0, 0%, 42%);
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
