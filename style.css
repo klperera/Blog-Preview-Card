@@ -8,6 +8,7 @@ html{
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
+img{display: block;}
 body{
     background-color: hsl(47, 88%, 63%);
 }
@@ -15,7 +16,7 @@ body{
     background-color: white;
     width: 85%;
     height: auto;
-    margin: 15% auto;
+    margin: 35% auto;
     box-shadow: 10px 10px black;
     border-radius: 25px;
     padding: 5%;
@@ -25,20 +26,32 @@ body{
     border-radius: 10px;
 }
 .container h2{
-    display: inline;
+    display: inline-block;
     margin: 10% 0;
     padding: 2.5%;
     background-color: hsl(47, 88%, 63%);
     border-radius: 5px;
+    font-size: 1.75rem;
 }
 .date{
     margin-bottom: 5%;
 }
 .container h1{
     margin: 5% 0;
+    font-size: 2.25rem;
 }
 .container .des{
     color: hsl(0, 0%, 42%);
+    font-size: 1.25rem;
+    line-height: 1.55;
+}
+.profile{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+.profile p {
+    margin-left: 5% ;
 }
 .attribution { 
     font-size: 11px; 
